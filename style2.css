@@ -126,4 +126,12 @@ a{
   #container input {
     width: 100%;
   }
+  
+footer{
+  text-align: center;
+  color:white;
+    padding: 12px;
+    font-size: 10px;
+   background-color: rgb(53, 52, 52);
+}
 }
