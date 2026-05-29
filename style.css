@@ -127,7 +127,7 @@ a{
   header h1 {
     font-size: 2.3rem;
   }
-body{min-height: 100vh;
+body{
    overflow-x: hidden;
     overflow-y: auto;
 }
@@ -155,9 +155,9 @@ body{min-height: 100vh;
 
     margin: 40px auto;
     padding: 30px;
-    height: 90%;
-     max-height: 550px;
-    overflow: hidden;
+   height: auto;
+max-height: none;
+overflow: visible;
   }
 
   #container h1 {
@@ -168,6 +168,14 @@ body{min-height: 100vh;
   #container input {
     width: 100%;
   }
+ footer {
+    display: block;
+    width: 100%;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: static;
+  }
 
 }
-
