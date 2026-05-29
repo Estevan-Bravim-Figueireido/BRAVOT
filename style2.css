@@ -97,41 +97,16 @@ a{
     position: absolute;
     right: 25px;
   }
+  }
   main {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
-  #container {
-    position: relative;
-    left: auto;
-    top: auto;
 
-    width: 90%;
-    max-width: 440px;
 
-    margin: 40px auto;
-    padding: 30px;
-    height: 90%;
-     max-height: 550px;
-    overflow: hidden;
-  }
 
-  #container h1 {
-    font-size: 3rem;
-    text-align: center;
-  }
-
-  #container input {
-    width: 100%;
-  }
   
-footer{
-  text-align: center;
-  color:white;
-    padding: 12px;
-    font-size: 10px;
-   background-color: rgb(53, 52, 52);
-}
-}
+
+
