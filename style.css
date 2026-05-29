@@ -1,0 +1,149 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+header{
+    background-color: rgb(53, 52, 52);
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+nav a {  
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 32px;
+  cursor: pointer;
+  color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+
+#container{
+   
+
+padding: 40px;
+border-radius: 12px;
+position: absolute;
+top: 20%;
+left: 5%;
+padding: auto;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.486));
+
+
+}
+
+body{
+    background-image: url(imagens/montanha.webp)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.textos{
+  font-family: Roboto;
+   margin-bottom: 10px;
+    width: 100%;
+     max-width: 440px;
+     height: 40px;
+     font-size: 20px;
+}
+p{
+    font-family: Roboto ;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#container > h1{
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+#btn{height: 50px;
+    width: 100%;
+     max-width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: Roboto;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    
+}
+#btn:hover{
+  background-color: rgb(114, 112, 112);
+  color: white ;
+}
+footer{
+  text-align: center;
+  color:white;
+    padding: 12px;
+    font-size: 10px;
+   background-color: rgb(53, 52, 52);
+}
+main{flex: 1;}
+
+
+
+
+a{
+  display: inline-block;
+  margin-bottom: 40px;
+  color: rgb(107, 104, 104);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #container {
+    position: relative;
+    left: auto;
+    top: auto;
+
+    width: 90%;
+    max-width: 440px;
+
+    margin: 40px auto;
+    padding: 30px;
+    height: 90%;
+     max-height: 550px;
+    overflow: hidden;
+  }
+
+  #container h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #container input {
+    width: 100%;
+  }
+}
+
+
+   
